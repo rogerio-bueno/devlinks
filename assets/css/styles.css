@@ -13,6 +13,10 @@
     --stroke-color-light-mode: rgba(0, 0, 0, 0.50);
     --surface-color-dark-mode: rgba(255, 255, 255, 0.10);
     --surface-color-light-mode: rgba(0, 0, 0, 0.05);
+    --toggle-handle-color: #FFF;
+    --switcth-bg-sun: url(../image/sun.svg);
+    --switcth-bg-moon: url(../image/moon.svg);
+
 }
 
 body {
@@ -44,6 +48,36 @@ body {
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+}
+
+.switch {
+    margin: 0 auto;
+    position: relative;
+    width: 64px;
+}
+
+.switch button {
+    border: none;
+    background: var(--toggle-handle-color) var(--switcth-bg-sun) no-repeat center;
+    border-radius: 50%;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    width: 32px;
+}
+
+.switch span {
+    border: 1px solid var(--stroke-color-dark-mode);
+    background: var(--surface-color-dark-mode);
+    border-radius: 9999px;
+    display: block;
+    height: 24px;
+    position: relative;
+    width: 64px;
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .links__list {
@@ -98,7 +132,7 @@ a {
 
 /*light mode*/
 .light {
-    background-image: url(../image/bg-mobile-light.jpg);   
+    background-image: url(../image/bg-mobile-light.jpg);
     color: var(--text-light-mode);
 }
 
@@ -111,8 +145,14 @@ a {
     color: var(--text-light-mode);
 }
 
+.light button {
+    background: var(--toggle-handle-color) var(--switcth-bg-moon) no-repeat center;
+    right: 0;
+    left: initial;
+}
+
 /*background para desktop*/
-@media (min-width:700px){
+@media (min-width:700px) {
     body {
         background-image: url(../image/bg-desktop.jpg);
 
