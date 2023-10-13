@@ -8,8 +8,11 @@
 /*variaveis css*/
 :root {
     --text-dark-mode: #FFF;
+    --text-light-mode: var(#000);
     --stroke-color-dark-mode: rgba(255, 255, 255, 0.50);
+    --stroke-color-light-mode: rgba(0, 0, 0, 0.50);
     --surface-color-dark-mode: rgba(255, 255, 255, 0.10);
+    --surface-color-light-mode: rgba(0, 0, 0, 0.05);
 }
 
 body {
@@ -93,9 +96,29 @@ a {
     text-decoration-line: underline;
 }
 
+/*light mode*/
+.light {
+    background-image: url(../image/bg-mobile-light.jpg);   
+    color: var(--text-light-mode);
+}
+
+.light li {
+    border: 1px solid var(--stroke-color-light-mode);
+    background: var(--surface-color-light-mode);
+}
+
+.light a {
+    color: var(--text-light-mode);
+}
+
 /*background para desktop*/
 @media (min-width:700px){
     body {
         background-image: url(../image/bg-desktop.jpg);
+
+    }
+
+    .light {
+        background-image: url(../image/bg-desktop-light.jpg);
     }
 }
