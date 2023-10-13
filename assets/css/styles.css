@@ -8,6 +8,8 @@
 /*variaveis css*/
 :root {
     --text-dark-mode: #FFF;
+    --stroke-color-dark-mode: rgba(255, 255, 255, 0.50);
+    --surface-color-dark-mode: rgba(255, 255, 255, 0.10);
 }
 
 body {
@@ -39,4 +41,61 @@ body {
     font-weight: 500;
     line-height: 24px;
     text-align: center;
+}
+
+.links__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    padding: 24px;
+}
+
+.links__list li {
+    align-items: center;
+    background: var(--surface-color-dark-mode);
+    border: 1px solid var(--stroke-color-dark-mode);
+    border-radius: 8px;
+    display: flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    height: 56px;
+    justify-content: center;
+    line-height: 24px;
+    padding: 16px 24px;
+    width: 312px;
+    -webkit-backdrop-filter: blur(4px);
+}
+
+a {
+    color: var(--text-dark-mode);
+    text-decoration: none;
+}
+
+.redes {
+    display: flex;
+    font-size: 24px;
+    gap: 16px;
+    justify-content: center;
+    padding: 24px;
+}
+
+.l-footer {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 24px;
+}
+
+.l-footer a {
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+/*background para desktop*/
+@media (min-width:700px){
+    body {
+        background-image: url(../image/bg-desktop.jpg);
+    }
 }
