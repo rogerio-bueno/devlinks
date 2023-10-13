@@ -4,12 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*variaveis css*/
-:root{
 
+/*variaveis css*/
+:root {
+    --text-dark-mode: #FFF;
 }
 
 body {
     background: url(../image/bg-mobile.jpg) no-repeat top center/cover;
+    color: var(--text-dark-mode);
+    font-family: 'Inter', sans-serif;
     height: 100vh;
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+.l-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 56px;
+    padding: 24px;
+}
+
+.header__image {
+    display: block;
+    margin: 24px;
+    margin: 0 auto;
+    width: 112px;
+}
+
+.header__text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
 }
