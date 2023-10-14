@@ -13,6 +13,8 @@ DevLinks é um agregador de links responsivo e com troca de tema que você pode 
 *  CSS3
 *  javaScript
 *  BEM
+*  Semântica
+*  Responsividade 
 
 
 ## 📌 Versão
