@@ -2,7 +2,7 @@
 
 # Dev Links
 
-Realizei esse projeto com o objetivo de revisão do meu aprendizado nos ultimos 6 meses.
+Realizei esse projeto com o objetivo de revisão do meu aprendizado.
 
 DevLinks é um agregador de links responsivo e com troca de tema que você pode usar como cartão de visitas nas suas redes sociais.  
 
