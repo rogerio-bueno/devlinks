@@ -170,7 +170,7 @@ a {
 
 .light li:hover {
     border: 1.5px solid black;
-    background: var(--surface-color-light-mode);
+    
     -webkit-backdrop-filter: blur(4px);
 }
 
