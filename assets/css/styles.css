@@ -53,6 +53,7 @@ body {
 }
 
 .switch {
+    cursor: pointer;
     margin: 0 auto;
     position: relative;
     width: 64px;
@@ -178,6 +179,10 @@ a {
 }
 
 .redes a:hover {
+    background: var(--highlight-dark-mode );
+}
+
+.light .redes a:hover {
     background: var(--highlight-light-mode);
 }
 
