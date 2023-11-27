@@ -2,8 +2,7 @@
 
 # Dev Links
 
-Realizei esse projeto com o objetivo de revisão do meu aprendizado.
-
+Este projeto Dev Links é fruto da participação no curso Discovery da Rocketseat, onde explorei as tecnologias essenciais para o desenvolvimento web. Ao executar este projeto, apliquei meus conhecimentos em HTML5, CSS3 e JavaScript, adotando práticas como BEM, Semântica e Responsividade.
 DevLinks é um agregador de links responsivo e com troca de tema que você pode usar como cartão de visitas nas suas redes sociais.  
 
 ## 🛠️ Tecnologias

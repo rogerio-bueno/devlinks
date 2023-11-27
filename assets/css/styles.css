@@ -169,8 +169,7 @@ a {
 }
 
 .light li:hover {
-    border: 1.5px solid black;
-    
+    border: 1.5px solid black;    
     -webkit-backdrop-filter: blur(4px);
 }
 
