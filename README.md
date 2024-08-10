@@ -16,7 +16,7 @@ Ao executar este projeto, apliquei meus conhecimentos em HTML5, CSS3 e JavaScrip
 
 ## 📌 Versão
 
-Utilizo o  [Git GitHub] para controle de versão. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/rogerio-bueno/devlinks). 
+Utilizo o  [Git GitHub] para controle de versão.
 
 ## 📄 Licença
 
